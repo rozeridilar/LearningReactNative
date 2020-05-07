@@ -46,6 +46,6 @@ const styles = StyleSheet.create({
 
 As I understand, flatlist kind of acts like a recycler view in android. The FlatList component displays the similar structured data in a scrollable list. It works well for large lists of data where the number of list items might change over time. The FlatList shows only those renders elements which are currently displaying on the screen, not all the elements of the list at once.
 
-The FlatList component takes two required props: data and renderItem.
+The FlatList component takes two required props: data and renderItem. Also it needs keyExtractor props for key value pairing.
 
 The data is the source of elements for the list, and renderItem takes one item from the source and returns a formatted component to render.
