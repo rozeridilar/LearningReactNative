@@ -49,3 +49,45 @@ As I understand, flatlist kind of acts like a recycler view in android. The Flat
 The FlatList component takes two required props: data and renderItem. Also it needs keyExtractor props for key value pairing.
 
 The data is the source of elements for the list, and renderItem takes one item from the source and returns a formatted component to render.
+
+List Screen: 
+```javascript
+const ListScreen = () => {
+  const friends = [new Friend("Friend #1", 22), new Friend("Friend #2", 23)];
+  return (
+    <FlatList
+      keyExtractor={(friend) => friend.name}
+      data={friends}
+      renderItem={(element) => {
+        const name = element.item.name;
+        const age = element.item.age;
+        console.log(element);
+        return (
+          <Text style={styles.textStyle}>
+            {name} - Age {age}
+          </Text>
+        );
+      }}
+    />
+  );
+};
+
+const styles = StyleSheet.create({
+  textStyle: {
+    marginVertical: 50,
+  },
+});
+```
+Friend Model: 
+```javascript
+export default class Friend {
+  name: string;
+  age: int;
+  constructor(name: string, age: int) {
+    this.name = name;
+    this.age = age;
+  }
+}
+```
+
+Question: How can I put friends list as a parameter in the listscreen const, rather than a inner variable?
