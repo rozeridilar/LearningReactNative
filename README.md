@@ -4,10 +4,10 @@ Hello there, I am so new to React Native Development, and would like to share al
 I am still struggling with finding the best ide and extensions, since I come from a swift background these all so new to me! However I found great recommendations in below links that helped me a quite a lot:
 
 https://medium.com/react-native-training/vscode-for-react-native-526ec4a368ce
-https://hackernoon.com/how-i-configure-vscode-for-everything-7df65a316a52
+https://hackernoon.com/10-essential-vs-code-extensions-for-javascript-developers-in-2019-e8320e3f421e
 https://medium.com/hackernoon/vs-code-extensions-for-happier-javascript-coding-e258f72dd9c1
 
-The essentials for me are React Native Tools, Babel JavaScript, ESLint, Prettier, Flow Language Support, ES7 React snippets, bracket colorizer, TODO Highlight and indent rainbows.
+The essentials for me are React Native Tools, Babel JavaScript, Import Cost, ESLint, Prettier, Flow Language Support, ES7 React snippets, bracket colorizer, TODO Highlight and indent rainbows.
 
 <strong>Working with Content</strong>
 
