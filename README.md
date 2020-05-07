@@ -1,6 +1,7 @@
 # Learning React Native ⚡️
 Hello there, I am so new to React Native Development, and would like to share all my notes here!
-<strong>The IDE</strong>
+
+## #1 The IDE
 I am still struggling with finding the best ide and extensions, since I come from a swift background these all so new to me! However I found great recommendations in below links that helped me a quite a lot:
 
 https://medium.com/react-native-training/vscode-for-react-native-526ec4a368ce
@@ -13,7 +14,7 @@ The essentials for me are React Native Tools, Babel JavaScript, Import Cost, ESL
 
 Lets dive into fundementals!
 
-<strong>Working with Content</strong>
+## #2 Working with Content
 
 Rules of JSX: 
 - We can assemble different JSX elements like normal HTML.
@@ -41,7 +42,7 @@ const styles = StyleSheet.create({
 
 ```
 
-<strong>FlatList</strong>
+## #3 FlatList
 
 As I understand, flatlist kind of acts like a recycler view in android. The FlatList component displays the similar structured data in a scrollable list. It works well for large lists of data where the number of list items might change over time. The FlatList shows only those renders elements which are currently displaying on the screen, not all the elements of the list at once.
 
