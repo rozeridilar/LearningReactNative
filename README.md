@@ -11,6 +11,8 @@ https://medium.com/hackernoon/vs-code-extensions-for-happier-javascript-coding-e
 
 The essentials for me are React Native Tools, Babel JavaScript, Import Cost, ESLint, Prettier, Flow Language Support, ES7 React snippets, bracket colorizer, TODO Highlight and indent rainbows.
 
+Lets dive into fundementals!
+
 <strong>Working with Content</strong>
 
 Rules of JSX: 
