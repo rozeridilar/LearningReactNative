@@ -110,3 +110,35 @@ As I understand, this one is more like a ui view components like in swift. Assum
 Here we have a custom Image Component with image title, image score and source. We use the 'props' <strong> to communicate data from a parent to a child. </strong> Above example, instead getting props directly we added the parameters we need from props.
 
 ## #5 State Management
+```javascript
+const CounterScreen = () => {
+  //Array destructring
+  const [counter, setCounter] = useState(0);
+  return (
+    <View>
+      <View style={styles.viewStyle}></View>
+      <Button
+        title="Increase"
+        onPress={() => {
+          setCounter(counter + 1);
+          console.log(counter);
+        }}
+      />
+
+      <View style={styles.viewStyle}></View>
+
+      <Button
+        title="Decrease"
+        onPress={() => {
+          setCounter(counter - 1);
+          console.log(counter);
+        }}
+      />
+      <View style={styles.viewStyle}></View>
+
+      <Text style={styles.headline}> Current Count: {counter}</Text>
+    </View>
+  );
+};
+```
+Above, there is a counter variable that changes by useState, once the `setCounter()` function is triggered react native updates the whole view. 
