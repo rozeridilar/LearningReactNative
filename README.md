@@ -110,6 +110,9 @@ As I understand, this one is more like a ui view components like in swift. Assum
 Here we have a custom Image Component with image title, image score and source. We use the 'props' <strong> to communicate data from a parent to a child. </strong> Above example, instead getting props directly we added the parameters we need from props.
 
 ## #5 State Management
+
+State tracks a single piece of data and any time it changes, it will update the UI.
+
 ```javascript
 const CounterScreen = () => {
   //Array destructring
