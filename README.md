@@ -145,3 +145,4 @@ const CounterScreen = () => {
 };
 ```
 Above, there is a counter variable which set 0 by defalt, once the `setCounter()` function is triggered react native updates(rerenders) the whole CounterScreen component. 
+<strong> When a component is rerendered all of its children gets rerendered too. </strong>
