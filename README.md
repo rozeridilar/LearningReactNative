@@ -105,3 +105,6 @@ const ImageDetail = ({ imageScore, title, imageSource }) => {
   );
 };
 ```
+As I understand, this one is more like a ui view components like in swift. Assume you need to create your custom button like with a rounded corner radius, with shade and you get to use that button several times in your app. So in that case it is always better to create your custom button as a UI Component in swift. This Building Reusable Components is the same meaning in react-native. 
+
+Here we have a custom Image Component with image title, image score and source. We use the 'props' <strong> to communicate data from a parent to a child. </strong>
