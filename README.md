@@ -91,3 +91,17 @@ export default class Friend {
 ```
 
 Question: How can I put friends list as a parameter in the listscreen const, rather than a inner variable?
+
+## #4 Building Reusable Components
+Component with Image and Text 
+```javascript
+const ImageDetail = ({ imageScore, title, imageSource }) => {
+  return (
+    <View>
+      <Image source={imageSource} />
+      <Text>{title}</Text>
+      <Text>Image Score - {imageScore}</Text>
+    </View>
+  );
+};
+```
