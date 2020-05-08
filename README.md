@@ -144,4 +144,4 @@ const CounterScreen = () => {
   );
 };
 ```
-Above, there is a counter variable that changes by useState, once the `setCounter()` function is triggered react native updates the whole view. 
+Above, there is a counter variable which set 0 by defalt, once the `setCounter()` function is triggered react native updates(rerenders) the whole CounterScreen component. 
