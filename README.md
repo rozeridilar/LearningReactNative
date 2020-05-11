@@ -1,6 +1,7 @@
 # Learning React Native ⚡️
-Hello there, I am originally an IOS developer and sooo new to React Native Development, here I share all the notes I have:) 
-Welcome to my React Native Journey!
+Hello there, Welcome to my React Native Journey! 
+
+I am sooo new to React Native Development, here I share all the notes I have:) 
 
 ## The IDE
 I am still struggling with finding the best ide and extensions, since I come from a swift background these all so new to me! However I found great recommendations in below links that helped me a quite a lot:
