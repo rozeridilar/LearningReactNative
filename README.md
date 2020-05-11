@@ -128,7 +128,9 @@ Here we have a custom Image Component with image title, image score and source. 
 
 ## #5 State Management
 
-State tracks a single piece of data and any time it changes, it will update the UI.
+State tracks a single piece of data and any time it changes, it will update the UI. 
+
+`While you can think of props as arguments you use to configure how components render, state is like a component’s personal data storage. State is useful for handling data that changes over time or that comes from user interaction. State gives your components memory!` --> it is basicly like a `didSet{}` in swift!
 
 ```javascript
 const CounterScreen = () => {
