@@ -1,7 +1,8 @@
 # Learning React Native ⚡️
-Hello there, I am so new to React Native Development, and would like to share all my notes here!
+Hello there, I am originally an IOS developer and sooo new to React Native Development, here I share all the notes I have:) 
+Welcome to my React Native Journey!
 
-## #1 The IDE
+## The IDE
 I am still struggling with finding the best ide and extensions, since I come from a swift background these all so new to me! However I found great recommendations in below links that helped me a quite a lot:
 
 https://medium.com/react-native-training/vscode-for-react-native-526ec4a368ce
@@ -12,10 +13,21 @@ https://medium.com/hackernoon/vs-code-extensions-for-happier-javascript-coding-e
 
 The essentials for me are React Native Tools, Babel JavaScript, Import Cost, ESLint, Prettier, Flow Language Support, ES7 React snippets, bracket colorizer, TODO Highlight and indent rainbows.
 
+(PS: after a quite struggling in vscode, I switch to JetBrains ide and it is smart.:) I wish it wouldn't need a license though.
+
 Lets dive into fundementals!
 
-## #2 Working with Content
+## #1 Function Components and Class Components
+With React, you can make components using either classes or functions. Hooks are introduced in React Native 0.58. Such as useState, useReducer, are hook functions.  Hook adds some additional functionality and capability to a functional component.
 
+## #2 React Fundamentals
+
+- components
+- JSX
+- props
+- state
+
+React and React Native use JSX, a syntax that lets you write elements inside JavaScript like so: <Text>Hello!</Text>
 Rules of JSX: 
 - We can assemble different JSX elements like normal HTML.
 - We configure different JSX elements using 'props'.
@@ -41,6 +53,7 @@ const styles = StyleSheet.create({
 });
 
 ```
+[Comprehensive guide to JSX](https://reactjs.org/docs/jsx-in-depth.html)
 
 ## #3 FlatList
 
@@ -49,6 +62,8 @@ As I understand, flatlist kind of acts like a recycler view in android. The Flat
 The FlatList component takes two required props: data and renderItem. Also it needs keyExtractor props for key value pairing.
 
 The data is the source of elements for the list, and renderItem takes one item from the source and returns a formatted component to render.
+
+<strong>Props is short for “properties.” Props let you customize React components. </strong>
 
 List Screen: 
 ```javascript
