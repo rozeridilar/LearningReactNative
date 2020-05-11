@@ -177,3 +177,5 @@ Where to put state variables:
 - If a child needs to read a state value, the parent can pass it via prop.
 
 - If a child needs to change a state value, the parent can pass down a callback function to change the state value as a prop.
+
+<strong> As a general rule, use props to configure a component when it renders. Use state to keep track of any component data that you expect to change over time. </strong>
