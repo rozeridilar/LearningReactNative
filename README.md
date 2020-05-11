@@ -91,7 +91,7 @@ export default class Friend {
 ```
 
 Question: How can I put friends list as a parameter in the listscreen const, rather than a inner variable?
-Why cant I add a style to a button?
+Why cant I add a style to a button? View de style i nasil pubic yapabilirim butun classlar ortak stylelara ulassin?
 
 ## #4 Building Reusable Components
 Functional Based Component with Image and Texts. 
