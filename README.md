@@ -150,3 +150,12 @@ Above, there is a counter variable which set 0 by defalt, once the `setCounter()
 - When a component is rerendered all of its children gets rerendered too.
 
 - A state variable can be passed to a child component. At that point the state variable is now being used as props.
+
+- Every time we create a instance of a component, every copy of it has its own seperate piece of state.
+
+Where to put state variables:
+- Generally, we create state variables in the most parent component that needs to read or change a state value.
+
+- If a child needs to read a state value, the parent can pass it via prop.
+
+- If a child needs to change a state value, the parent can pass down a callback function to change the state value as a prop.
