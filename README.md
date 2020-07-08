@@ -1,7 +1,7 @@
 # Learning React Native ⚡️
 Hello there, Welcome to my React Native Journey! 
 
-I am sooo new to React Native Development, here I share all the notes I have:) 
+I am new here, feel free to submit pull requests, suggesting additions. :)
 
 ## The IDE
 I am still struggling with finding the best ide and extensions, since I come from a swift background these all so new to me! However I found great recommendations in below links that helped me a quite a lot:
@@ -16,7 +16,7 @@ The essentials for me are React Native Tools, Babel JavaScript, Import Cost, ESL
 
 (PS: after a quite struggling in vscode, I switch to JetBrains ide and it is smart.:) I wish it wouldn't need a license though.
 
-Lets dive into fundementals!
+The fundementals:
 
 ## #1 Function Components and Class Components
 With React, you can make components using either classes or functions. Hooks are introduced in React Native 0.58. Such as useState, useReducer, are hook functions.  Hook adds some additional functionality and capability to a functional component.
@@ -106,9 +106,6 @@ export default class Friend {
 }
 ```
 
-Question: How can I put friends list as a parameter in the listscreen const, rather than a inner variable?
-Why cant I add a style to a button? View de style i nasil pubic yapabilirim butun classlar ortak stylelara ulassin?
-
 ## #4 Building Reusable Components
 Functional Based Component with Image and Texts. 
 ```javascript
@@ -181,3 +178,4 @@ Where to put state variables:
 <strong> As a general rule, use props to configure a component when it renders. Use state to keep track of any component data that you expect to change over time. </strong>
 
 ## #5 Applying state with a Reducer
+- //TODO:D
